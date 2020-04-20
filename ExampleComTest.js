@@ -1,6 +1,6 @@
 //Version 3
 var assert = require("assert");
-$browser.get("http://example.com").then(function(){
+$browser.get("http://newrelic.com").then(function(){
   // Check the H1 title matches "Example Domain"
   return $browser.findElement($driver.By.css("h1")).then(function(element){
     return element.getText().then(function(text){
